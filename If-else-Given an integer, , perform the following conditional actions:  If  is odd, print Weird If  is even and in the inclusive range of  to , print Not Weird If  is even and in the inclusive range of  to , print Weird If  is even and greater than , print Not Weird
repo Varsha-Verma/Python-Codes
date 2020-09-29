@@ -1,0 +1,14 @@
+import math
+num = int(input())
+if num%2 !=0:
+    print("Weird")
+elif num%2==0:
+    if num>=6 and num<=20:
+    #for i in range(6,22):
+        print ("Weird")
+    elif num>=2 and num<=5:
+        print("Not Weird")
+        
+    else:
+        print("Not Weird")
+        
